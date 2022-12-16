@@ -1,0 +1,60 @@
+#user-inputs { 
+    color : Black;
+    margin-top: 100px;
+    margin-left: 200px;
+}
+input { 
+    border: 5px solid Black;
+    height: 20px; 
+    margin-left: 50px;
+    border-radius: 20%;
+    text-align: center;
+    font-weight: 600;
+    font-size: 75%;
+    background-color: black;
+    color: whitesmoke;
+    padding: 20px; 
+    box-shadow: -45px 25px 23px -3px rgba(102,89,89,0.75);
+}
+#btn {
+    margin-top: auto;
+    color : black;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+    size: 20px;
+    height: 30px;
+    width: 800;
+    font-size: 25px;
+    color: blueviolet;
+    font-weight: 600;
+
+}
+input:hover { 
+    background-color: rgb(255, 1, 1);
+    transition:0.4 sec;  
+}   
+.card { 
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    margin:auto; 
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    }
+.card-title { 
+    font-size:2rem ;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.card-paragraph { 
+    font-size:1.2rem ;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
