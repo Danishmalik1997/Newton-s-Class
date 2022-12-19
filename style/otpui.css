@@ -1,0 +1,55 @@
+.grid { 
+    display: grid;
+    place-items: center;
+    background-color: aliceblue;
+    
+}
+#parent { 
+    height: 300px;
+    width: 450px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    border-style: solid;
+    border-color: black;
+    border-radius: 10px;
+    background-color: white;
+}
+
+h1{ 
+    text-align: center;
+    font-family: monospace;
+    font-weight: bolder;
+    background-color: white;
+}
+p{ 
+    text-align: center;
+    background-color: white;
+}
+#first-input {
+    width: 33px;
+    height:50px;
+    padding: 10px;
+    border: 0.5px light rgb(97, 89, 89) ;
+    margin-left: 10px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+#below-text { 
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    width: 26em;
+    height: 3em; 
+    margin-top:-1.5em;
+    margin-left: -13em;
+}
+#last-para { 
+    border: 1px;
+    border-radius: 5px;
+    background-color:lightgray;
+    font-size: small;
+    font-family: monospace;
+    
+
+}
