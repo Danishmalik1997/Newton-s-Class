@@ -1,0 +1,88 @@
+* { 
+    margin : 0; 
+    padding : 0; 
+    box-sizing: border-box;
+}
+body { 
+    background-color: rgb(195, 159, 159);
+}
+
+#wrapper { 
+    height: 500px;
+    width: 500px;
+    background-color: rgb(181, 231, 143);
+}
+
+#ball { 
+    height: 80px;
+    width : 80px;
+    text-align: center;
+    background-color: white;
+    border-radius: 50%;
+    animation-name: some;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes some { 
+    from { transform: translate(400px,0px);
+    }
+    to { transform: translate(0px, 400px); 
+    }
+}
+
+#ball2 { 
+    height: 80px;
+    width : 80px;
+    padding: 0px;
+    text-align: center;
+    color: white; 
+    background-color: black;
+    border-radius: 50%;
+    animation-name: secondball;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes secondball { 
+    from { transform: translate(0px,0px);
+    }
+    to { transform: translate(0px, 500px); 
+    }
+}
+#ball3 { 
+    height: 80px;
+    text-align: center;
+    width : 80px;
+    background-color: blue;
+    color:white;
+    border-radius: 50%;
+    animation-name: thirdball;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes thirdball { 
+    from { transform: translate(0px,400px);
+    }
+    to { transform: translate(400px, 0px); 
+    }
+}
+#ball4 { 
+    height: 80px;
+    width : 80px;
+    text-align: center;
+    color:white; 
+    background-color: orange;
+    border-radius: 50%;
+    animation-name: fourthball;
+    animation-duration: 4s; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes fourthball { 
+    from { transform: translate(400px,400px);
+    }
+    to { transform: translate(0px, 0px); 
+    }
+}
